@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "es2020"],
+    "module": "esnext",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    // "outDir": "./lib",
+    "declarationDir": "./lib/types",
+  },
+  "include": ["./src/**/*", "./rollup.config.ts"],
+}
